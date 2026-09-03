@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio WebSite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/dcd3e1d0fe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logos.png" class="logo">
+                <ul id="solidmenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#work">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Tanmay</span>
+
+                <div>and I am passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="images/back.jpeg" alt="img">
+            </div>
+        </section>
+        <!-------------- about ----------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/image6.webp">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="sub">
+                            Hi, I’m Tanmay Dhote, a passionate Computer Science Engineering student currently pursuing
+                            my
+                            B.Tech degree from Priyadarshini Bhagwati College of Engineering.
+                            I am interested in software development, web development, and problem-solving.
+                            I enjoy learning new technologies and continuously improving my technical skills.
+                            I’m currently building my knowledge in C++, Java, Python, and Data Structures &
+                            Algorithms.
+                            I love working on projects that help me gain practical experience and solve real-world
+                            problems.
+                        </p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+
+                                <li><span>Web Development</span><br>HTML,CSS,JS</li>
+                                <li><span>Problem Solving</span><br>Logical Thinking,Analytical Thinking,DSA (Data
+                                    Structures & Algorithms)</li>
+                                <li><span>Communication Skills</span><br>Public Speaking,Team Collaboration</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="experience">
+                            <ul>
+
+                                <li><span>2026</span><br>Build small project Expence Tracker</li>
+                                <li><span>2025</span><br>Build an Tip Calculator</li>
+                                <li><span>2024 - 25</span><br>Build an Netflix Cone </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="education">
+                            <ul>
+
+                                <li><span>2024</span><br>Pursuing B-TECH Degree form PBOCE Nagpur Branch Computer
+                                    Science And Engineering.</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------services------------------------>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <img class="image-top" src="images/image5.png" alt="">
+                        <h2>Web Design</h2>
+                        <p class="services">I create modern, responsive, and user-friendly websites that match your
+                            brand and goals.
+                            I focus on clean designs, smooth performance, and a great user experience across all
+                            devices. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <img class="image-top" src="images/prb.jpg" alt="">
+
+                        <h2>Problem Solver</h2>
+                        <p class="services">I solve technical and real-world problems using logical thinking, analytical
+                            skills, and
+                            efficient approaches.
+                            I focus on finding simple, effective, and optimized solutions to challenging problems.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <img class="image-top" src="images/viedo.jpg" alt="">
+
+                        <h2>Video Editor</h2>
+                        <p class="services">I create engaging and professional video edits that bring your ideas and
+                            stories to life.
+                            I focus on smooth transitions, creative effects, and high-quality visuals to make every
+                            video stand out.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------protfolio--------------------------->
+        <div id="work">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/ooo.jpg">
+                        <div class="layer">
+                            <h3>Search Engine Website</h3>
+                            <p class="port">A fast and user-friendly search engine designed to help users find relevant
+                                information quickly.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/expences.png">
+                        <div class="layer">
+                            <h3>Expence-Tracker</h3>
+                            <p class="port">A simple expense tracker that helps users record, manage, and monitor
+                                their daily spending.
+                            </p>
+                            <a href="https://golden-wash-700.notion.site/Monthly-Expense-Tracker-3995cbcba24a8088982bd05922308183?pvs=143"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tip.png">
+                        <div class="layer">
+                            <h3>Tip-Calculator</h3>
+                            <p class="port">A quick and easy tip calculator that calculates tips and splits
+                                bills accurately.
+                            </p>
+                            <a href="http://127.0.0.1:5501/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!--------------Contact------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"
+                                style="color: #ff004f;  margin-right: 15px; font-size: 25px;"></i>
+                            <a href="#">tanmaydhote701@gmail.com</a>
+                        </p>
+                        <p><i class="fa-solid fa-phone"
+                                style="color: #ff004f;  margin-right: 15px; font-size: 25px;"></i>
+                            <a href="#">9876543210</a>
+                        </p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-square-linkedin"></i> </a>
+                        </div>
+                        <a href="images/My-Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>©️ 2026 Tanmay. Designed & Developed with <i class="fa-solid fa-heart" style="color: #ff004f;"></i>
+                </p>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Problem Solver', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <script>
+        var solidmenu = document.getElementById("solidmenu");
+
+        function openmenu() {
+            solidmenu.style.right = "0";
+        }
+        function closemenu() {
+            solidmenu.style.right = "-230px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwC4AwjPbv65E-e4E7I5__Ae9IueOkyUv358ISgj_mK9nXMg2xIifWXADm5ypuowjEtgA/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+
+            const formData = new FormData(form);
+
+            fetch(scriptURL, {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.text())
+                .then(result => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function() {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    alert("Something went wrong!");
+                });
+        });
+    </script>
+
+</body>
+
+</html>
