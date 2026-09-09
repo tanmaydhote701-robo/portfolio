@@ -378,7 +378,7 @@ form .btn2{
         position: fixed;
         top: 0;
         right: -230px;
-        height: 65vh; 
+        height: 75vh; 
         padding-top: 70px ;
         display: grid;
         grid-template-columns: 1fr;
